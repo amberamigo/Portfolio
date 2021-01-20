@@ -22,10 +22,7 @@ export const Footer = () => {
 
                 <div className="powered">
                   <p>Powered By</p>
-                  <a href="https://www.crio.do" target="_blank" rel="noreferrer">
-                    {' '}
-                    <img width="120" src={crio} alt="Crio" />
-                  </a>
+                 Amber Amigo
                 </div>
               </div>{' '}
               <div>
