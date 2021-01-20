@@ -10,7 +10,7 @@ import { Wrapper, Grid, Item, Content, Stats } from "./styles";
 export const Projects = () => {
   const { theme } = useContext(ThemeContext);
   const [repos, setRepos] = useState([]);
-  // console.log(process.env.GITHUB_TOKEN);
+  console.log(process.env.GITHUB_TOKEN);
   useEffect(() => {
     axios
       .get("https://api.github.com/user/repos", {
